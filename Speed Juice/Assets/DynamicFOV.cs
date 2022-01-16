@@ -14,7 +14,7 @@ public class DynamicFOV : MonoBehaviour
 
     private float CalculateFOV() {
         curSpeed = rb.velocity.magnitude;
-        Debug.Log(curSpeed);
+        
         float newFOV;
 
         if (curSpeed >= minFOVExpansionSpeed) {
